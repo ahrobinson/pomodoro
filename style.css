@@ -1,0 +1,56 @@
+body{
+    background-color: grey;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+h1{
+    font-size: 75px;
+}
+
+button{
+    background-color: grey;
+    border: none;
+    font-size: 5px;
+    font-size: xx-large;
+    cursor: pointer;
+    outline: none;
+}
+
+p{
+    font-size: medium;
+}
+
+#work, #break {
+    font-size: x-large;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#break, #work{
+    display: block;
+}
+
+#start{
+    cursor: pointer;
+    border: 1px solid green;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 350px;
+    line-height: 350px;
+    font-size: 50px;
+}
+
+#breakSpan, #workSpan{
+    color: red;
+    font-size: 50px;
+}
+
+
